@@ -1,0 +1,55 @@
+.label {
+  color:black;
+  padding: 8px;
+  font-family: Arial;
+}
+.success {background-color: #04AA6D;}
+
+.albums {
+    display: grid;
+    background: #f2f2f2;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    gap: 30px;
+    padding-right:180px;
+    padding-left:180px;
+    padding-top:40px;
+    padding-bottom:40px;
+  
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .album {
+    background: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    padding: 1.5em;
+    border-radius: 1em;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 6.5em;
+   
+    color: black;
+    font-weight: 100;
+    transition: transform .2s; 
+  }
+  .album:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  
+  h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 0.25em;
+  }
+  
+  .album__artist {
+    opacity: 0.7;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    font-style: oblique;
+    letter-spacing: .7px;
+  }
